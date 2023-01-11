@@ -1,0 +1,86 @@
+
+User-agent: *
+Disallow: /fr/
+Disallow: /et/
+Disallow: /zh/
+Disallow: /zh_TW/
+Disallow: /hu/
+Disallow: /nl/
+Disallow: /cs/
+Disallow: /nl_be/
+Disallow: /ca_ES/
+Disallow: /ar/
+Disallow: /ca/
+Disallow: /en/
+Disallow: /fi/
+Disallow: /pt/
+Disallow: /de/
+Disallow: /ja/
+Disallow: /iw/
+Disallow: /es/
+
+Disallow: /*xtor*
+Disallow: /*jsessionid*
+Disallow: /web/guest/
+Disallow: /*?*cr=*
+Disallow: /*?*xtor=*
+Disallow: /*?*axis=*
+Disallow: /*?*p_p_id=*
+Disallow: /*?*lm=*
+Disallow: /*?*p_p_lifecycle=*
+Disallow: /*?*gclid=*
+Disallow: /*?*p_p_state=*
+Disallow: /*?*dfaid=*
+Disallow: /*?*gclsrc=*
+Disallow: /*?*p_p_mode=*
+Disallow: /*?*p_p_cacheability=*
+Disallow: /*?*p_p_col_id=*
+Disallow: /*?*_rechercheragenceheader_WAR_sitemarchandappportlet_*
+Disallow: /*?*p_p_col_pos=*
+Disallow: /*?*p_p_col_count=*
+Disallow: /*?*socid
+Disallow: /*?*fbclid
+Disallow: /*?*wpmobileexternal
+Disallow: /web
+Disallow: /*dtMonitor*
+Disallow: /dtMonitor*
+Disallow: /*?codepostal=*
+Disallow: /*?codePostal=*
+Disallow: /lp/*
+Disallow: /*agriculteurs-header-footer-theme/*
+Disallow: /*particulier-header-footer-theme/*
+Disallow: /old-browser/*
+
+
+#blocage des tunnels
+Disallow: /devis-mrh/*/
+Allow:/devis-mrh/
+Disallow: /devis-mrh/?*
+Disallow: /devis-sante/*
+Disallow: /devis/*
+Disallow: /devis-*
+Disallow: /professionnels-devis/*
+Disallow: /velo-devis/*
+Disallow: /assurance-agricole/demande-devis/*
+
+Disallow: /nous-contacter
+Disallow: /legacy/*
+Disallow: /newsletter/*
+Disallow: /newsletters/*
+Disallow: /documents/*
+Disallow: /_next/data/*
+Disallow: /*auth*
+
+#email
+Disallow: /email/*
+
+Disallow:/documents/*/Facebook-logo.png*
+Disallow:/documents/*/Twitter-logo.png*
+Disallow:/documents/*/daylimotion-logo.png*
+Disallow:/documents/*/YouTube-logo.png*
+
+User-agent: yopdf
+Disallow: /
+User-agent: spbot
+Disallow: /
+sitemap: https://www.groupama.fr/sitemap.xml

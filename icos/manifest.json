@@ -1,0 +1,13 @@
+{
+  "name": "Starter",
+  "short_name": "Starter",
+  "icons": [
+    {
+      "src": "apple-touch-icon",
+      "sizes": "180x180"
+    }
+  ],
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "display": "fullscreen"
+}
